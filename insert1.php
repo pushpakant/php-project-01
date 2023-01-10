@@ -1,0 +1,21 @@
+<?php
+	if(isset($_POST['submitmarks']))
+		{
+		$ostp=$_POST['ostp'];
+		
+		$java=$_POST['java'];
+		$ds=$_POST['ds'];
+		$se=$_POST['se'];
+		$adbms=$_POST['adbms'];
+		$total=$ostp+$java+$ds+$se+$adbms;
+		$percent=($total*100)/500;
+		if($percent>=50)
+		{
+			$result="Pass";
+		}
+		else
+		{
+			$result="Fail";
+		}
+		}
+?>

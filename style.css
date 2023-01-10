@@ -1,0 +1,283 @@
+body
+{
+	
+	margin-top:0;	
+	font-family: "calibri";
+	font-size: 18px;
+	margin-left:0;
+}
+nav
+{
+	padding:0px;
+	background:blue;
+	color:white;
+	position:fixed;
+	width:100%;	
+	display:block;
+
+}
+
+nav ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li 
+{
+	float:left;
+}
+.profile
+{
+	margin:0;
+	height:62;
+	float:right;
+}
+nav li a
+{
+	display: block;
+	color:white;
+	width: 80%;
+	text-decoration: none;
+	padding:20px;
+	margin-right:10px;
+	
+}
+nav li a:hover
+{
+	color:black;
+}
+nav li a.active
+{
+	background-color:#000000;
+	color:white;
+	
+}
+nav li a:hover:not(.active) {
+  background-color: red;
+  color: white;
+}
+a
+{
+	color:blue;
+	text-decoration: none;
+}
+.login
+{
+	padding:10;
+	border: 1px solid black;
+	width:500px;
+	margin-top:200px;
+	background:lightblue;
+}
+.regform
+{
+	padding:10;
+	width: 400px;
+}
+.err
+{
+	color:red;
+	font-weight: normal;
+}
+
+.regform table
+{
+	border:2px solid black;
+	border-collapse: collapse;
+	background:lightblue;
+	
+}
+
+.regform table td
+{
+	padding:0;
+	font-weight:bold;
+	padding-right: 0;
+	padding-left: .3em;
+	padding-top: .5em;
+    padding-bottom: 0;
+	
+}
+
+
+ .regform table thead
+{
+	height: 70px;
+	background:blue;
+	color: blanchedalmond;
+	font-size: 25px;
+
+}
+.uinput
+{
+	width:150px;
+}
+.regform  input
+{
+	width: 210px;
+}
+.regform  input[type="radio"]
+{
+	width: 10px;
+}
+.regform  input[type="submit"]
+{
+	background-color:blue;
+	color:white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	border-width: 2px;
+
+}
+.editform
+{
+	padding:10;
+	
+}
+.editform table
+{
+	border:2px solid black;
+	width:500px;
+	background:lightblue;
+}	
+	
+.stdetails
+{
+	padding:10;
+	margin-top:50px;
+}
+.stdetails table
+{
+	color:darkslateblue;	
+	background:lightblue;
+	border:3px solid black;
+	border-collapse: collapse;
+	width: 1000px;
+}
+.stdetails table thead
+{
+	color:darkslateblue;
+	
+	background:cornsilk;
+	border:3px solid black;
+	
+}
+.stdetails table tbody
+{
+	color:black;
+	background:cornsilk;
+	border:1px solid black;
+	text-align: center;
+	width:auto;
+}
+.stdetails table tbody td
+{
+	width: auto;
+}
+
+
+.stdetails .btn
+{
+	height:25px;
+	width: 90px;
+	border-radius: 10%;
+	font-weight:800;
+	color:black;
+	background-color: lavender;
+}
+.stdetails .btn1
+{
+	height:25px;
+	width: 90px;
+	border-radius: 10%;
+	font-weight:800;
+	color:blue;
+	background-color: lavender;
+}
+.stdetails .btn2
+{
+	height:25px;
+	width: 90px;
+	border-radius: 10%;
+	font-weight:800;
+	color:red;
+	background-color: lavender;
+}
+.marks
+{
+	padding:10;
+	
+}
+.marks table
+{
+	border:2px solid black;
+	width:350px;
+	background:lightblue;
+}
+.displaymarks
+{
+	margin-top:80px;
+	padding:10;
+	
+}
+.displaymarks table
+{
+	border:2px solid black;
+	width:350px;
+	background:lightblue;
+}
+.srh
+{
+	
+	padding:10;
+	
+}
+.srh table
+{
+	border:2px solid black;
+	width:350px;
+	background:lightblue;
+}	
+.displayresult
+{
+	
+	padding:10;
+	
+}
+.displayresult table
+{
+	border:2px solid black;
+	width:350px;
+	background:lightblue;
+}
+.changepsd
+{
+	
+	padding:10;
+	
+}
+.changepsd table
+{
+	border:2px solid black;
+	width:350px;
+	background:lightblue;
+}	
+.image
+{
+	background-image:url("123.jpg");
+	position:relative;
+	background-size: auto;
+	width:100%;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+@media (min-width:768px) {}
+
+@media (min-width:600px){} 
+@media (max-width:600px){} 
+
